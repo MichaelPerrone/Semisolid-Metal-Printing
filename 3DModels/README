@@ -1,0 +1,6 @@
+V1 was an attempt at using MHD extrusion of liquid metal; perhaps the parts and methods used will help someone else with their project, but it didn't end up being useful for this one. Will elaborate on that system later.
+V2 is the current working system. It uses a liquid gasket to enable filament extrusion of metal in just the same way as plastic.
+V2 is meant to reuse some of the parts from V1, for hooking up the system to a Prusa Mendel printer. Systems for attaching to more modern printers will come after the concept has been proven out.
+
+The V2 parts are compatible with the parts from V1 for hooking this system up to a Prusa Mendel printer and a Bondtech extruder, The spacer with all the hexagonal cuts is meant to be laser cut out of wood.
+In Lieu of instructions for now, a picture of the Onshape assembly will suffice for assembly. More detailed instructions on the way.
