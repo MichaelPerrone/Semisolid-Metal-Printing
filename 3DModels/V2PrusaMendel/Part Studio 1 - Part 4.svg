@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 793.7007874015749 1122.5196850393702"
+   width="793.7007874015749"
+   height="1122.5196850393702"
+   version="1.1"
+   id="svg118">
+  <metadata
+     id="metadata122">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path2" />
+    </marker>
+    <pattern
+       height="8"
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path5" />
+      <path
+         d="M6 2 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path7" />
+      <path
+         d="M4 0 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path9" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     id="g16" />
+  <g
+     id="g18" />
+  <g
+     id="g20" />
+  <g
+     id="g22" />
+  <g
+     id="g24" />
+  <g
+     id="g26" />
+  <g
+     id="g28" />
+  <g
+     id="g30" />
+  <g
+     id="g32" />
+  <g
+     id="g34" />
+  <g
+     id="g36" />
+  <g
+     id="g38" />
+  <g
+     id="g40" />
+  <g
+     id="g42" />
+  <g
+     id="g44" />
+  <g
+     id="g46" />
+  <g
+     id="g48" />
+  <g
+     id="g50" />
+  <g
+     id="g52" />
+  <g
+     id="g54" />
+  <g
+     id="g56" />
+  <g
+     id="g58" />
+  <g
+     id="g60" />
+  <g
+     id="g62" />
+  <g
+     id="g64" />
+  <g
+     id="g66" />
+  <g
+     id="g68" />
+  <g
+     id="g70" />
+  <g
+     id="g72" />
+  <g
+     id="g96">
+    <path
+       d="m 166.97217,1043.7266 v 71.4331"
+       style="fill:none;stroke:#000000"
+       id="path74" />
+    <path
+       d="M 166.97217,1043.7266 H 8.2211333"
+       style="fill:none;stroke:#000000"
+       id="path76" />
+    <path
+       d="m 8.2211333,1043.7266 v 71.4331"
+       style="fill:none;stroke:#000000"
+       id="path78" />
+    <path
+       d="M 166.97217,1115.1597 H 8.2211333"
+       style="fill:none;stroke:#000000"
+       id="path80" />
+    <path
+       d="m 123.69114,1079.4432 a 5.858268,5.858268 0 1 0 -11.71653,0 5.858268,5.858268 0 1 0 11.71653,0 z"
+       style="fill:none;stroke:#000000"
+       id="path82" />
+    <path
+       d="m 63.2187,1079.4432 a 5.858268,5.858268 0 1 0 -11.716535,0 5.858268,5.858268 0 1 0 11.716535,0 z"
+       style="fill:none;stroke:#000000"
+       id="path84" />
+    <path
+       d="m 91.659645,1079.4432 a 4.062992,4.062992 0 1 0 -8.125984,0 4.062992,4.062992 0 1 0 8.125984,0 z"
+       style="fill:none;stroke:#000000"
+       id="path86" />
+    <path
+       d="m 30.147834,1056.766 a 5.858268,5.858268 0 1 0 -11.716535,0 5.858268,5.858268 0 1 0 11.716535,0 z"
+       style="fill:none;stroke:#000000"
+       id="path88" />
+    <path
+       d="m 156.76201,1056.766 a 5.858268,5.858268 0 1 0 -11.71654,0 5.858268,5.858268 0 1 0 11.71654,0 z"
+       style="fill:none;stroke:#000000"
+       id="path90" />
+    <path
+       d="m 30.147834,1102.1203 a 5.858268,5.858268 0 1 0 -11.716535,0 5.858268,5.858268 0 1 0 11.716535,0 z"
+       style="fill:none;stroke:#000000"
+       id="path92" />
+    <path
+       d="m 156.76201,1102.1203 a 5.858268,5.858268 0 1 0 -11.71654,0 5.858268,5.858268 0 1 0 11.71654,0 z"
+       style="fill:none;stroke:#000000"
+       id="path94" />
+  </g>
+  <g
+     id="g98" />
+  <g
+     id="g100" />
+  <g
+     id="g102" />
+  <g
+     id="g104" />
+  <g
+     id="g106" />
+  <g
+     id="g108" />
+  <g
+     id="g110" />
+  <g
+     id="g112" />
+  <g
+     id="g114">
+    <path
+       d="m 166.78279,958.93944 v 71.43316"
+       style="fill:none;stroke:#000000"
+       id="path74-3" />
+    <path
+       d="M 166.78279,958.93944 H 8.0317486"
+       style="fill:none;stroke:#000000"
+       id="path76-6" />
+    <path
+       d="m 8.0317486,958.93944 v 71.43316"
+       style="fill:none;stroke:#000000"
+       id="path78-7" />
+    <path
+       d="M 166.78279,1030.3726 H 8.0317486"
+       style="fill:none;stroke:#000000"
+       id="path80-5" />
+    <path
+       d="m 123.50176,994.65607 a 5.858268,5.858268 0 1 0 -11.71653,0 5.858268,5.858268 0 1 0 11.71653,0 z"
+       style="fill:none;stroke:#000000"
+       id="path82-3" />
+    <path
+       d="m 63.029315,994.65607 a 5.858268,5.858268 0 1 0 -11.716535,0 5.858268,5.858268 0 1 0 11.716535,0 z"
+       style="fill:none;stroke:#000000"
+       id="path84-5" />
+    <path
+       d="m 91.47026,994.65607 a 4.062992,4.062992 0 1 0 -8.125984,0 4.062992,4.062992 0 1 0 8.125984,0 z"
+       style="fill:none;stroke:#000000"
+       id="path86-6" />
+    <path
+       d="m 29.958449,971.97887 a 5.858268,5.858268 0 1 0 -11.716535,0 5.858268,5.858268 0 1 0 11.716535,0 z"
+       style="fill:none;stroke:#000000"
+       id="path88-2" />
+    <path
+       d="m 156.57263,971.97887 a 5.85827,5.85827 0 1 0 -11.71654,0 5.85827,5.85827 0 1 0 11.71654,0 z"
+       style="fill:none;stroke:#000000"
+       id="path90-9" />
+    <path
+       d="m 29.958449,1017.3332 a 5.858268,5.858268 0 1 0 -11.716535,0 5.858268,5.858268 0 1 0 11.716535,0 z"
+       style="fill:none;stroke:#000000"
+       id="path92-1" />
+    <path
+       d="m 156.57263,1017.3332 a 5.85827,5.85827 0 1 0 -11.71654,0 5.85827,5.85827 0 1 0 11.71654,0 z"
+       style="fill:none;stroke:#000000"
+       id="path94-2" />
+    <path
+       d="m 166.42906,873.17595 v 71.4331"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path74-7" />
+    <path
+       d="M 166.42906,873.17595 H 7.6780153"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path76-0" />
+    <path
+       d="m 7.6780153,873.17595 v 71.4331"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path78-9" />
+    <path
+       d="M 166.42906,944.60905 H 7.6780153"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path80-3" />
+    <path
+       d="m 123.14803,908.89255 a 5.8582683,5.8582681 0 1 0 -11.71653,0 5.8582683,5.8582681 0 1 0 11.71653,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path82-6" />
+    <path
+       d="m 62.675589,908.89255 a 5.8582708,5.8582708 0 1 0 -11.716541,0 5.8582708,5.8582708 0 1 0 11.716541,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path84-0" />
+    <path
+       d="m 91.116529,908.89255 a 4.0629921,4.0629921 0 1 0 -8.125979,0 4.0629921,4.0629921 0 1 0 8.125979,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path86-62" />
+    <path
+       d="m 29.604717,886.21535 a 5.8582683,5.8582681 0 1 0 -11.716531,0 5.8582683,5.8582681 0 1 0 11.716531,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path88-6" />
+    <path
+       d="m 156.2189,886.21535 a 5.8582708,5.8582708 0 1 0 -11.71654,0 5.8582708,5.8582708 0 1 0 11.71654,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path90-1" />
+    <path
+       d="m 29.604717,931.56965 a 5.8582683,5.8582681 0 1 0 -11.716531,0 5.8582683,5.8582681 0 1 0 11.716531,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path92-8" />
+    <path
+       d="m 156.2189,931.56965 a 5.8582708,5.8582708 0 1 0 -11.71654,0 5.8582708,5.8582708 0 1 0 11.71654,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path94-7" />
+  </g>
+  <desc
+     id="desc116">Part Studio 1 - Part 4.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+</svg>
