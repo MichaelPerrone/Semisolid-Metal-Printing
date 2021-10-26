@@ -380,12 +380,14 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   //Metal Extruder
-  //#define DEFAULT_Kp 9.87
-  //#define DEFAULT_Ki 0.2
-  //#define DEFAULT_Kd 450.0
   #define DEFAULT_Kp 19.02
   #define DEFAULT_Ki 0.66
   #define DEFAULT_Kd 137.12
+  //This is a hack: old V1 Marlin doesn't have the proper M303 code to test the bed temperature with E-1 and I'm not sure where the documentation
+  //for the old version is, so I just wired the bed to the extruder instead to test it
+  //#define DEFAULT_Kp 20.00
+  //#define DEFAULT_Ki 0.7
+  //#define DEFAULT_Kd 500
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -442,9 +444,9 @@
  // #define DEFAULT_bedKp 10.00
  // #define DEFAULT_bedKi .023
  // #define DEFAULT_bedKd 305.4
-  #define DEFAULT_bedKp 20
-  #define DEFAULT_bedKi 0.7
-  #define DEFAULT_bedKd 900.00
+  #define DEFAULT_bedKp 29.05
+  #define DEFAULT_bedKi 1.07
+  #define DEFAULT_bedKd 198.15
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -619,14 +621,14 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 2000, 500 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 2532, 500 }
 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 }
+#define DEFAULT_MAX_FEEDRATE          { 250, 250, 5, 25 }
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
@@ -634,7 +636,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 5, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 9, 10000 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
