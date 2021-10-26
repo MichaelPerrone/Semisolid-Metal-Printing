@@ -315,7 +315,7 @@
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
-#define TEMP_SENSOR_BED 2
+#define TEMP_SENSOR_BED 5
 #define TEMP_SENSOR_CHAMBER 0
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
@@ -350,12 +350,12 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 300
-#define HEATER_1_MAXTEMP 300
-#define HEATER_2_MAXTEMP 275
-#define HEATER_3_MAXTEMP 275
-#define HEATER_4_MAXTEMP 275
-#define BED_MAXTEMP 220
+#define HEATER_0_MAXTEMP 320
+#define HEATER_1_MAXTEMP 320
+#define HEATER_2_MAXTEMP 320
+#define HEATER_3_MAXTEMP 320
+#define HEATER_4_MAXTEMP 320
+#define BED_MAXTEMP 275
 
 //===========================================================================
 //============================= PID Settings ================================
@@ -383,9 +383,9 @@
   //#define DEFAULT_Kp 9.87
   //#define DEFAULT_Ki 0.2
   //#define DEFAULT_Kd 450.0
-  #define DEFAULT_Kp 9.87
-  #define DEFAULT_Ki 0.05
-  #define DEFAULT_Kd 496.41
+  #define DEFAULT_Kp 19.02
+  #define DEFAULT_Ki 0.66
+  #define DEFAULT_Kd 137.12
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -439,9 +439,12 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 10.00
-  #define DEFAULT_bedKi .023
-  #define DEFAULT_bedKd 305.4
+ // #define DEFAULT_bedKp 10.00
+ // #define DEFAULT_bedKi .023
+ // #define DEFAULT_bedKd 305.4
+  #define DEFAULT_bedKp 20
+  #define DEFAULT_bedKi 0.7
+  #define DEFAULT_bedKd 900.00
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -631,7 +634,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 10, 10000 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
