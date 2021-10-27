@@ -7,4 +7,4 @@ Eventually it will contain the same for other common RepRaps that are more popul
 
 See the instructions on my Hackaday page:
 https://hackaday.io/project/179846-semisolid-metal-printing
-they are quite good at this point.
+they are reasonably good at this point.
