@@ -350,12 +350,12 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 320
-#define HEATER_1_MAXTEMP 320
-#define HEATER_2_MAXTEMP 320
-#define HEATER_3_MAXTEMP 320
-#define HEATER_4_MAXTEMP 320
-#define BED_MAXTEMP 275
+#define HEATER_0_MAXTEMP 400
+#define HEATER_1_MAXTEMP 400
+#define HEATER_2_MAXTEMP 400
+#define HEATER_3_MAXTEMP 400
+#define HEATER_4_MAXTEMP 400
+#define BED_MAXTEMP 230
 
 //===========================================================================
 //============================= PID Settings ================================
@@ -379,10 +379,18 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  //Metal Extruder
-  #define DEFAULT_Kp 19.02
-  #define DEFAULT_Ki 0.66
-  #define DEFAULT_Kd 137.12
+
+
+  //Metal Extruder Insulated Aluminum
+  #define DEFAULT_Kp 7.09
+  #define DEFAULT_Ki 0.1
+  #define DEFAULT_Kd 100.0
+  
+  //Metal Extruder Iron
+  //#define DEFAULT_Kp 19.02
+  //#define DEFAULT_Ki 0.66
+  //#define DEFAULT_Kd 137.12
+  
   //This is a hack: old V1 Marlin doesn't have the proper M303 code to test the bed temperature with E-1 and I'm not sure where the documentation
   //for the old version is, so I just wired the bed to the extruder instead to test it
   //#define DEFAULT_Kp 20.00
@@ -467,7 +475,7 @@
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
  */
 #define PREVENT_COLD_EXTRUSION
-#define EXTRUDE_MINTEMP 170
+#define EXTRUDE_MINTEMP 225
 
 /**
  * Prevent a single extrusion longer than EXTRUDE_MAXLENGTH.
@@ -636,7 +644,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 9, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 7, 10000 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
@@ -661,7 +669,7 @@
 #define DEFAULT_XJERK                 10.0
 #define DEFAULT_YJERK                 10.0
 #define DEFAULT_ZJERK                  0.3
-#define DEFAULT_EJERK                  5.0
+#define DEFAULT_EJERK                  3.5
 
 /**
  * S-Curve Acceleration
