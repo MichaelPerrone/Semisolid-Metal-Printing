@@ -27,6 +27,9 @@
 // Calculated using 4.7kohm pullup, voltage divider math, and manufacturer provided temp/resistance
 const short temptable_5[][2] PROGMEM = {
   { OV(   1), 713 },
+  { OV(  11), 340 },
+  { OV(  12), 320 },
+  { OV(  14), 310 },
   { OV(  17), 300 }, // top rating 300C
   { OV(  20), 290 },
   { OV(  23), 280 },
